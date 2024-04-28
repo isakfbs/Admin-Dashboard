@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.dashboard-container {
+  height: 100vh;
+  width: auto;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 20% 1fr;
+}
+
+div {
+  border: solid 2px blue;
+  background-color: lightyellow;
+}
+
+.header {
+  grid-column: 2/3;
+}
+
+.sidebar {
+  grid-row: 1/4;
+}
